@@ -1,15 +1,15 @@
-# Telegram Corona Update Bot 🦠
+# Telegram Corona Update Bot 
 
 ## A Simple Bot to get Corona Virus updates via Telegram platform.
 
 ### Installation
 
-* Fork this Repo.😎
+* Fork this Repo.
 
 * The Go to the CoronaBot.py & Edit these 👉
                        ```APP_ID``` , ```APP_HASH``` , ```BOTT```
                        
-* After that click the Heroku Deploy Button & Deploy it 😋
+* After that click the Heroku Deploy Button & Deploy it 
 
 
 ### Deploy to Heroku 🏃‍♂
@@ -24,9 +24,8 @@
 
 ### Credits:
 
-- [Jaindu Charindith](https://github.com/jaindu)
-- [Uvindu Bro Co](https://github.com/UvinduBroCo)
+- [Theekshana](https://github.com/ImTheekshana126)
 
 ### Developers:
 
--  [@UvinduBro](https://t.me/Uvindu_Bro)
+-  [Theekshana](https://t.me/ImTheekshana)
