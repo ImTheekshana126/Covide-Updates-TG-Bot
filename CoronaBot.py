@@ -4,7 +4,7 @@ import requests
 
 APP_ID= 3550946 #my.telegram.org
 APP_HASH='6235d84de3799a511c4e609d1a0bddb5' #my.telegram.org
-BOTT='1917451466:AAGjdurRL3mxHUXjQ0neZEuCOkbWON2m0XY'#@botfather
+BOT='1917451466:AAGjdurRL3mxHUXjQ0neZEuCOkbWON2m0XY'#@botfather
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
@@ -15,7 +15,7 @@ def staat(qq):
   data = {
     "chat_id": str(qq),
     "photo": "https://telegra.ph/file/b79bf1c3624d73b130d72.jpg",
-    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @ImTheekshana 🇱🇰 | @Pawan_Theekshana ",
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19_Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @ImTheekshana 🇱🇰 | @Pawan_Theekshana ",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
