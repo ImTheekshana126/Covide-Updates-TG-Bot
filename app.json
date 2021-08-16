@@ -1,0 +1,26 @@
+{
+  "name": "Sri Lanka Covid 19 Bot",
+  "description": "A bot to get currently Covid-19 local stats",
+  "repository": "https://github.com/UvinduBro/SL-Covid19-Bot",
+  "logo": "https://telegra.ph/file/782f917525856e7f0ae05.jpg",
+  "keywords": ["telegram", "Covid-19", "Sri-Lanka","telegram bot"],
+  "env": {
+     "BOTT": {
+      "description": "Your Bot token from @Botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Your API_ID from https://my.telegram.org/apps ",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your API_HASH from https://my.telegram.org/apps",
+      "value": ""
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
