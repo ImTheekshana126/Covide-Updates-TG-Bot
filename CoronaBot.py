@@ -26,7 +26,7 @@ def staat(qq):
                 }, 
                 {
                     "text": "🔊 Channel",
-                    "url": "https://t.me/Theekshana Official"
+                    "url": "https://t.me/Theekshana_Official"
                 }
             ]
         ]
