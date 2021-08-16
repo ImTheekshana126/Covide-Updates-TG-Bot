@@ -15,7 +15,7 @@ def staat(qq):
   data = {
     "chat_id": str(qq),
     "photo": "https://telegra.ph/file/b79bf1c3624d73b130d72.jpg",
-    "caption": "Get instant access to Corona in Sri Lanka .  Automatically retrieve the latest corona information after adding it to the @SLCovid19_Bot Group 🦠 . Use /help for more information. @Theekshana_Official ,
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @ImTheekshana 🇱🇰 | @Pawan_Theekshana ",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
