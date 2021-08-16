@@ -3,6 +3,7 @@
 ## A Simple Bot to get Corona Virus updates via Telegram platform.
 
 ### Installation
+ <img src="https://telegra.ph/file/b79bf1c3624d73b130d72.jpg">
 
 * Fork this Repo.
 
