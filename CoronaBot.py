@@ -4,7 +4,7 @@ import requests
 
 APP_ID= 3550946 #my.telegram.org
 APP_HASH='6235d84de3799a511c4e609d1a0bddb5' #my.telegram.org
-BOTT='1917451466:AAGjdurRL3mxHUXjQ0neZEuCOkbWON2m0XY'#@botfather
+BOTT='1917451466:AAFvL03obIqH2LXC3cj_vawvir4q44UHWQM'#@botfather
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
