@@ -22,10 +22,6 @@
 -   [x] Private Chats.
 -   [x] Real-Time Updating
 
-### Credits:
-
-- [Theekshana](https://github.com/ImTheekshana126)
-
 ### Developers:
 
 -  [Theekshana](https://t.me/ImTheekshana)
