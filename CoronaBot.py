@@ -4,7 +4,7 @@ import requests
 
 APP_ID= 5011454 #my.telegram.org
 APP_HASH='8d9cf856c343c25a50808cbcfe7de656' #my.telegram.org
-BOTT='1917451466:AAHss-pbaCVCDrYchEKjS4mEm5tgLUK_Kyg'#@botfather
+BOTT='1917451466:AAHFpo5ooPq_wRYBnQSnRFVpqJVYdVh4ivs'#@botfather
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
@@ -21,11 +21,11 @@ def staat(qq):
         "inline_keyboard": [
             [
                 {
-                    "text": "➕ Add me to your Group",
+                    "text": "Add me to your Group",
                     "url": "https://t.me/SLCovid19_Bot?startgroup=new"
                 }, 
                 {
-                    "text": "🔊 Channel",
+                    "text": " Channel",
                     "url": "https://t.me/Theekshana_Official"
                 }
             ]
@@ -54,7 +54,7 @@ def staa():
     textt = str(
                     '<b>CURRENT SITUATION</b>' + '\n' + '\n' + '<b>' +
                     update_date_time + ' වන විට</b>' + '\n' + '\n' +
-                    '<b>🇱🇰 ශ්‍රී ලංකාවේ තත්ත්වය</b>' + '\n' + '\n'  +
+                    '<b> ශ්‍රී ලංකාවේ තත්ත්වය</b>' + '\n' + '\n'  +
                     'තහවුරු කරනලද රෝගීන් සංඛ්‍යාව(සමුච්චිත) = ' + '<code>' +
                     local_total_cases + '</code>' + '\n' +
                     'ප්‍රතිකාර ලබන රෝගීන් සංඛ්‍යාව = ' + '<code>' + local_active_cases + '</code>' +
@@ -71,13 +71,13 @@ def staa():
                     global_deaths + '</code>' + '\n' + 'සුවය ලැබූ සංඛ්‍යාව = ' '<code>'  +
                     global_recovered + '</code>' + '\n' + '\n' + '\n' +
                     'සියලු තොරතුරු රජයේ සහ පිලිගත් මුලාශ්‍ර මගිනි' + '\n' +
-                    '~ @ImTheekshana ~')
+                    '~ @Theekshana_Official~')
     return textt
 
 
 def sta():
          r = requests.get(f"https://corona.lmao.ninja/v2/countries/{variabla}").json()
-         reply_text = f"**රට {r['country']} 🦠**\nතහවුරු කරනලද රෝගීන් සංඛ්‍යාව(සමුච්චිත) = {r['cases']:,}\nනව රෝගීන් සංඛ්‍යාව = {r['todayCases']:,}\n⚰ මරණ සංඛ්‍යාව = {r['deaths']:,}\n⚰ නව මරණ සංඛ්‍යාව = {r['todayDeaths']:,}\nසුවය ලැබූ සංඛ්‍යාව =  {r['recovered']}"
+         reply_text = f"**රට {r['country']} **\nතහවුරු කරනලද රෝගීන් සංඛ්‍යාව(සමුච්චිත) = {r['cases']:,}\nනව රෝගීන් සංඛ්‍යාව = {r['todayCases']:,}\n⚰ මරණ සංඛ්‍යාව = {r['deaths']:,}\n⚰ නව මරණ සංඛ්‍යාව = {r['todayDeaths']:,}\nසුවය ලැබූ සංඛ්‍යාව =  {r['recovered']}"
          message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
 
 
